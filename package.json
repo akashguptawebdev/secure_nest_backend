@@ -6,9 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon app.js",
-    "dev": "node app.js",
-    "build": "echo 'Building the application...' && npm run prepare",
-    "prepare": "echo 'Preparing production files...'",
     "start": "node app.js"
   },
   "author": "",
