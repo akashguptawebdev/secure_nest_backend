@@ -66,6 +66,11 @@ app.get("/api/logout", (req, res) => {
   }
 });
 
+app.get("/home" ,(req, res) => {
+    res.send("welcome home")
+}
+)
+
 // Start the server on port 4000
 server.listen(4000, () => {
   console.log("Server is running on port 4000");
