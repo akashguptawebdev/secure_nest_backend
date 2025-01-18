@@ -6,9 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon app.js",
-    "dev":"node app.js",
-    "build": "echo 'Building...'; npm run prepare"
-
+    "dev": "node app.js",
+    "build": "echo 'Building the application...' && npm run prepare", // Custom build step
+    "prepare": "echo 'Preparing production files...'", // Example of preparing files for production
+    "start": "node app.js" // For running in production
   },
   "author": "",
   "license": "ISC",
